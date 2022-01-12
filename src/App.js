@@ -2,9 +2,10 @@ import logo from './logo.svg';
 import './App.css';
 import React from "react";
 import About from './pages/About';
-import Home from './pages/Home'
-import Blogs from './pages/Blogs'
-import NavBar from './components/NavBar/NavBar'
+import Home from './pages/Home';
+import Blogs from './pages/Blogs';
+import { NavBar } from 'lmw-gui-components';
+
 
 import {
   BrowserRouter as Router,

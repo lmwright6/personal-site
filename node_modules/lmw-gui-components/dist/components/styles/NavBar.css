@@ -1,0 +1,36 @@
+.navigation {
+	display: flex;
+	justify-content: space-between;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.left {
+	margin-top: 50px;
+	margin-left: 100px;
+	font-family: Lora;
+
+
+}
+.left a {
+	font-size: 35px;
+}
+
+.nav-options {
+	display: flex;
+	margin-top: 60px;
+	margin-right: 100px;
+}
+.nav-options li {
+
+	padding-right: 100px;
+	list-style-type: none;
+	text-decoration: none;
+}
+.nav-options li a {
+	color: black;
+	text-decoration: none;
+	font-size: 20px;
+}
+.right {
+	justify-content: flex-end;
+}
