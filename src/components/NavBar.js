@@ -9,12 +9,12 @@ import {
 export default function NavBar() {
   return (
 
-    <header className="header">
+    <header className="navigation">
       <div className="left">
-        <a href="#">Lauren Wright</a>
+        <a>Lauren Wright</a>
       </div>
-      <div className="mid">
-        <ul className="navbar">
+      <div className="right">
+        <ul className="nav-options">
           <li>
             <Link to="/">Home</Link>
           </li>
@@ -26,9 +26,6 @@ export default function NavBar() {
           </li>
         </ul>
 
-      </div>
-      <div className="right">
-        <a href="#">Welcome</a>
       </div>
 
     </header>
