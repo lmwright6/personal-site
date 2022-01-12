@@ -4,7 +4,7 @@ import React from "react";
 import About from './pages/About';
 import Home from './pages/Home'
 import Blogs from './pages/Blogs'
-import NavBar from './components/NavBar'
+import NavBar from './components/NavBar/NavBar'
 
 import {
   BrowserRouter as Router,
@@ -12,12 +12,26 @@ import {
   Route,
 } from "react-router-dom";
 
+const routeData = [
+  {
+    title: "Home",
+    path: "/"
+  },
+  {
+    title: "About",
+    path: "/about"
+  },
+  {
+    title: "Blogs",
+    path: "/blogs"
+  }
+]
 export default function App() {
   return (
     <>
 
     <Router>
-      <NavBar />
+      <NavBar name="Lauren Wright" links={routeData}/>
 
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
