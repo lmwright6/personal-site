@@ -1,11 +1,7 @@
 import * as React from 'react';
 import "./NavBar.css"
 import PropTypes from 'prop-types';
-
-import {
-  Link
-} from "react-router-dom";
-import { PinDropTwoTone } from '@mui/icons-material';
+import { Link } from "react-router-dom";
 
 NavBar.propTypes = {
   name: PropTypes.string,
