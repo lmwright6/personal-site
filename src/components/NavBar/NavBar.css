@@ -6,10 +6,8 @@
 
 .left {
 	margin-top: 50px;
-	margin-left: 100px;
+	margin-left: auto;
 	font-family: Lora;
-
-
 }
 .left a {
 	font-size: 35px;
@@ -18,7 +16,7 @@
 .nav-options {
 	display: flex;
 	margin-top: 60px;
-	margin-right: 100px;
+	margin-right: 25px;
 }
 .nav-options li {
 
