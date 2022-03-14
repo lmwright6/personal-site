@@ -2,6 +2,8 @@
 	display: flex;
 	justify-content: space-between;
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	align-items: center;
+
 }
 
 .left {
@@ -9,11 +11,10 @@
 	margin-bottom: 30px;	
 	margin-left: 75px;
 	font-family: Lora;
-}
-.left a {
 	font-size: 35px;
+	height: fit-content;
+	align-items: center;
 }
-
 .menu-items {
 	text-decoration: none;
 }
@@ -35,8 +36,6 @@
 		margin-top: 10px;
 		margin-bottom: 10px;
 		margin-left: 20px;
-	}
-	.left a {
 		font-size: 24px;
 	}
 	.right {

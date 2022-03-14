@@ -71,12 +71,11 @@ function NavBar(_ref) {
       backgroundColor: backgroundColor
     }
   }, /*#__PURE__*/React.createElement("div", {
-    className: "left"
-  }, /*#__PURE__*/React.createElement("a", {
     style: {
       color: fontColor
-    }
-  }, name)), /*#__PURE__*/React.createElement("div", {
+    },
+    className: "left"
+  }, name), /*#__PURE__*/React.createElement("div", {
     className: "right"
   }, /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(_Button.default, {
     startIcon: /*#__PURE__*/React.createElement(_Menu.default, {
